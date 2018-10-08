@@ -8,6 +8,7 @@
         body {
             margin: 50px;
         }
+	    
         .header {
             display: grid;
             grid-template-areas: 'head' 'head';
@@ -16,6 +17,7 @@
             text-align: center;
             font-size: 50px;
         }
+	
         .menu {
             display: grid;
             grid-template-areas: 'menu' 'menu' 'menu' 'menu';
@@ -24,6 +26,7 @@
             text-align: center;
             font-size: 30px;
         }
+	
         .wrapper {
             display: grid;
             grid-template-columns: 100px;
@@ -31,88 +34,107 @@
             background-color: white;
             color: #444;
         }
+	
         .footer {
             display: grid;
             grid-template-areas: 'footer';
             margin: auto;
         }
+	
         .box {
             background-color: white;
             color: black;
             padding: 20px;
             font-size: 100%;
         }
+	
         .picture {
             float: left;
             padding: 0 20px 20px 0;
         }
+	
         .text {
             float: right;
             padding: 0 20px 20px 0;
         }
+	
         .box2 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture2 {            
             padding: 0 20px 20px 0;
         }
+	
         .box3 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture3 {
             padding: 0 20px 20px 0;
         }
+	
         .box4 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture4 {
             padding: 0 20px 20px 0;
-        }        
+        }
+	
         .box5 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture5 {
             padding: 0 20px 20px 0;
         }
+	
         .box6 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture6 {
             padding: 0 20px 20px 0;
         }
+	
         .box7 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture7 {
             padding: 0 20px 20px 0;
         }
+	
         .box8 {
             background-color: white;
             color: black;
             padding: 10px;
             font-size: 100%;
         }
+	
         .picture8 {
             padding: 0 20px 20px 0;
         }
+	
         .button {
             background-color: green;
             border: none;
@@ -125,6 +147,7 @@
             margin: 4px 2px;
             cursor: pointer;
         }
+	
         .button2 {
             background-color: red;
             border: none;
@@ -137,16 +160,19 @@
             margin: 4px 2px;
             cursor: pointer;
         }
+	
         .alertRight {
             padding: 20px;
             background-color: green;
             color: white;
         }
+	
         .alertWrong {
             padding: 20px;
             background-color: red;
             color: white;
         }
+	
         .scoreboard {
             display: grid;
             margin: 1px;
@@ -158,6 +184,7 @@
     </style>
 </head>
 <body>
+	
     <div class="header">Header</div>
     <div class="menu">Menu</div>
     <div class="wrapper">Description of task here</div>
@@ -170,6 +197,7 @@
         <img src="høyre.png" alt="høyre" width="500" height="300" />
     </a>
     <div class="box text">This is where the text goes!</div>
+    
     <p>Put a paragraph here!</p>
     <div class="box2">Insert picture here</div>
     <div class="picture2">
@@ -180,7 +208,8 @@
     <button class="button">Riktig</button>
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
-				<div class="alertWrong">Sorry. You answered wrong.</div>
+	<div class="alertWrong">Sorry. You answered wrong.</div>
+	
     <p>Neste oppgave</p>
     <div class="box3">Insert picture here</div>
     <div class="picture3">
@@ -192,62 +221,72 @@
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
         <div class="alertWrong">Sorry. You answered wrong.</div>
+	
     <p>Neste oppgave</p>
     <div class="box4">Insert picture here</div>
     <div class="picture4">
         <a target="_blank" href="paa.png">
             <img src="paa.png" alt="Emoji" width="500" height="300" />
         </a>
-		</div>
+    </div>
     <button class="button">Riktig</button>
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
         <div class="alertWrong">Sorry. You answered wrong.</div>
+	
     <p>Neste oppgave</p>
     <div class="box5">Insert picture here</div>
     <div class="picture5">
         <a target="_blank" href="paahøyre.jpg">
             <img src="over.jpg" alt="Emoji" width="500" height="300" />
         </a>
-		</div>
+     </div>
     <button class="button">Riktig</button>
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
-        <div class="alertWrong">Sorry. You answered wrong.</div>        
+        <div class="alertWrong">Sorry. You answered wrong.</div>    
+	
     <p>Neste oppgave</p>
     <div class="box6">Insert picture here</div>
     <div class="picture6">
         <a target="_blank" href="paavenstre.jpg">
             <img src="paavenstre.jpg" alt="Emoji" width="500" height="300" />
         </a>
-		</div>
+     </div>
     <button class="button">Riktig</button>
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
-        <div class="alertWrong">Sorry. You answered wrong.</div>        
+        <div class="alertWrong">Sorry. You answered wrong.</div>      
+	
     <p>Neste oppgave</p>
     <div class="box7">Insert picture here</div>
     <div class="picture7">
         <a target="_blank" href="under.jpg">
             <img src="under.jpg" alt="Emoji" width="500" height="300" />
         </a>
-		</div>
+    </div>
     <button class="button">Riktig</button>
         <div class="alertRight">Congratulation! You answered right!</div>
     <button class="button2">Galt</button>
-        <div class="alertWrong">Sorry. You answered wrong.</div>        
+        <div class="alertWrong">Sorry. You answered wrong.</div>  
+	
     <p>Neste oppgave</p>
     <div class="box8">Insert picture here</div>
     <div class="picture8">
         <a target="_blank" href="venstre.png">
             <img src="venstre.png" alt="Emoji" width="500" height="300" />
-        </a>        
+        </a>
+    </div>
+    
     <p>Samlet poengsumm</p>
     <div class="scoreboard">
         <button class="scoreboard">Poengsum: </button>
     </div>
     <div class="footer"></div>
+    
     <script>
+    
     </script>
+    
 </body>
 </html>
