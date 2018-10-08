@@ -11,7 +11,7 @@
 	    
         .header {
             display: grid;
-            grid-template-areas: 'head' 'head';
+            grid-template-areas: 'head' 'head'; <!--bjarne var en liten man-->
             background-color: white;
             margin: 10px;
             text-align: center;
