@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title></title>
     <style>
+	    
         body {
             margin: 50px;
         }
@@ -181,6 +182,7 @@
             grid-template-areas: 'score' 'score';
             text-align: center;
         }
+	
     </style>
 </head>
 <body>
