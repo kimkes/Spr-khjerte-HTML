@@ -1,0 +1,182 @@
+﻿body {
+    margin: 50px;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: 'head' 'head';
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.menu {
+    display: grid;
+    grid-template-areas: 'menu' 'menu' 'menu' 'menu';
+    background-color: azure;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-gap: 10px;
+    background-color: white;
+    color: #444;
+}
+
+.footer {
+    display: grid;
+    grid-template-areas: 'footer';
+    margin: auto;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 100%;
+}
+
+.picture {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.text {
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+.box2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture2 {
+    padding: 0 20px 20px 0;
+}
+
+.box3 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture3 {
+    padding: 0 20px 20px 0;
+}
+
+.box4 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture4 {
+    padding: 0 20px 20px 0;
+}
+
+.box5 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture5 {
+    padding: 0 20px 20px 0;
+}
+
+.box6 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture6 {
+    padding: 0 20px 20px 0;
+}
+
+.box7 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture7 {
+    padding: 0 20px 20px 0;
+}
+
+.box8 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.picture8 {
+    padding: 0 20px 20px 0;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.alertRight {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.alertWrong {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.scoreboard {
+    display: grid;
+    margin: 1px;
+    border: 1px solid black;
+    padding: 1px;
+    grid-template-areas: 'score' 'score';
+    text-align: center;
+}
